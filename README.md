@@ -1,28 +1,46 @@
-# 🤖 Hospital AI Assistant – Symptom Classifier
-An intelligent hospital assistant that helps classify patient symptoms using Google’s Gemini LLM and LangGraph. This assistant guides users to the right department based on their input symptoms: General, Emergency, or Mental Health.
+---
+
+🤖 Hospital AI Assistant – Symptom Classifier
+
+An intelligent assistant for hospitals that classifies patient symptoms using Google’s Gemini LLM and LangGraph. The assistant guides patients to the appropriate department: General, Emergency, or Mental Health.
+
+
+---
 
 📌 Features
-Conversational symptom input
 
-AI-based symptom classification
+🗣️ Conversational symptom input
 
-Automated routing to the correct care path
+🤖 AI-based symptom classification
 
-Modular architecture using LangGraph
+🏥 Automated routing to the correct care path
+
+🧩 Modular architecture using LangGraph
+
+
+
+---
 
 🧠 Tech Stack
+
 Python 3.x
 
 LangChain – LLM orchestration
 
 LangGraph – Graph-based flow control
 
-Google Generative AI – Gemini 1.5 Flash model
+Google Generative AI (Gemini 1.5 Flash) – LLM engine
+
+
+
+---
 
 🚀 How It Works
-User is asked to input a symptom.
 
-The Gemini LLM classifies it into:
+1. User inputs a symptom
+
+
+2. Gemini LLM classifies it into one of three categories:
 
 General
 
@@ -30,33 +48,75 @@ Emergency
 
 Mental Health
 
-The system routes the patient to the correct response node.
 
-Final response is printed for user guidance.
+
+3. The system routes the symptom to the appropriate response node
+
+
+4. Final output is printed to guide the patient
+
+
+
+
+---
+
+🧪 Sample Interaction
+
+Welcome to XYZ Hospital, please enter your symptom: I have chest pain  
+LLM Classifies the symptoms as: Emergency  
+Final Output: 'I have chest pain' is a medical emergency! Seek immediate help.
+
+
+---
 
 🔧 Setup Instructions
-Install dependencies
-Use pip to install required libraries (see requirements.txt).
 
-Get your Gemini API key
+1. Clone the Repository
+
+git clone https://github.com/your-username/hospital-ai-assistant.git
+cd hospital-ai-assistant
+
+2. Install Dependencies
+
+pip install -r requirements.txt
+
+3. Get Your Gemini API Key
 
 Visit Google AI Studio
 
-Create a project and get your API key
+Create a project and get your Gemini API Key
 
-Set it as an environment variable
+Set it as an environment variable:
 
-Run the application
 
-🧪 Sample Interaction
-pgsql
-Copy
-Edit
-Welcome to xyz hospital, please enter your symptom: I have chest pain  
-LLM Classifies the symptoms as: Emergency  
-Final Output: 'I have chest pain' is a medical emergency! Seek immediate help.
+export GEMINI_API_KEY="your-api-key-here"
+
+Alternatively, you can use a .env file (make sure it’s listed in .gitignore).
+
+4. Run the Application
+
+python main.py
+
+
+---
+
 🔐 API Key Safety
-Important: Never commit your API key to GitHub. Use environment variables or a .env file (and make sure it’s listed in .gitignore).
 
-📃 License
+> ⚠️ Important: Never commit your API key to GitHub.
+Use environment variables or a .env file to keep your credentials safe.
+
+
+
+
+---
+
+📄 License
+
 This project is licensed under the MIT License.
+See the LICENSE file for more details.
+
+
+---
+
+
+
