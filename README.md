@@ -1,7 +1,5 @@
 
 
----
-
 🤖 Hospital AI Assistant – Symptom Classifier
 
 An intelligent assistant that helps hospitals classify patient symptoms using Google’s Gemini LLM and LangGraph. It guides users to the correct department: General, Emergency, or Mental Health.
