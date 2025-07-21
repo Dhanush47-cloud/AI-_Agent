@@ -1,13 +1,17 @@
+
+
 ---
 
 🤖 Hospital AI Assistant – Symptom Classifier
 
-An intelligent assistant for hospitals that classifies patient symptoms using Google’s Gemini LLM and LangGraph. The assistant guides patients to the appropriate department: General, Emergency, or Mental Health.
+An intelligent assistant that helps hospitals classify patient symptoms using Google’s Gemini LLM and LangGraph. It guides users to the correct department: General, Emergency, or Mental Health.
 
 
 ---
 
 📌 Features
+
+──────────────
 
 🗣️ Conversational symptom input
 
@@ -23,6 +27,8 @@ An intelligent assistant for hospitals that classifies patient symptoms using Go
 
 🧠 Tech Stack
 
+──────────────
+
 Python 3.x
 
 LangChain – LLM orchestration
@@ -37,10 +43,12 @@ Google Generative AI (Gemini 1.5 Flash) – LLM engine
 
 🚀 How It Works
 
+──────────────
+
 1. User inputs a symptom
 
 
-2. Gemini LLM classifies it into one of three categories:
+2. Gemini LLM classifies it as:
 
 General
 
@@ -50,10 +58,10 @@ Mental Health
 
 
 
-3. The system routes the symptom to the appropriate response node
+3. The system routes to the appropriate response node
 
 
-4. Final output is printed to guide the patient
+4. A final output is printed to guide the patient
 
 
 
@@ -61,6 +69,8 @@ Mental Health
 ---
 
 🧪 Sample Interaction
+
+──────────────
 
 Welcome to XYZ Hospital, please enter your symptom: I have chest pain  
 LLM Classifies the symptoms as: Emergency  
@@ -70,6 +80,8 @@ Final Output: 'I have chest pain' is a medical emergency! Seek immediate help.
 ---
 
 🔧 Setup Instructions
+
+──────────────
 
 1. Clone the Repository
 
@@ -84,14 +96,14 @@ pip install -r requirements.txt
 
 Visit Google AI Studio
 
-Create a project and get your Gemini API Key
+Create a project and obtain your Gemini API Key
 
 Set it as an environment variable:
 
 
 export GEMINI_API_KEY="your-api-key-here"
 
-Alternatively, you can use a .env file (make sure it’s listed in .gitignore).
+You can also use a .env file (make sure it’s listed in .gitignore).
 
 4. Run the Application
 
@@ -102,21 +114,12 @@ python main.py
 
 🔐 API Key Safety
 
+──────────────
+
 > ⚠️ Important: Never commit your API key to GitHub.
-Use environment variables or a .env file to keep your credentials safe.
+Always use environment variables or a .env file for security.
 
 
 
 
 ---
-
-📄 License
-
-This project is licensed under the MIT License.
-See the LICENSE file for more details.
-
-
----
-
-
-
