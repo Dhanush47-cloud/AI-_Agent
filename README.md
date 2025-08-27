@@ -110,12 +110,7 @@ python main.py
 
 ---
 
-🔐 API Key Safety
 
-──────────────
-
-> ⚠️ Important: Never commit your API key to GitHub.
-Always use environment variables or a .env file for security.
 
 
 
