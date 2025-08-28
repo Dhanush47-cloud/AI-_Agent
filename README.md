@@ -7,7 +7,7 @@ An intelligent assistant that helps hospitals classify patient symptoms using Go
 
 ---
 
-##📌 Features
+## 📌 Features
 
 ──────────────
 
@@ -23,7 +23,7 @@ An intelligent assistant that helps hospitals classify patient symptoms using Go
 
 ---
 
-##🧠 Tech Stack
+## 🧠 Tech Stack
 
 ──────────────
 
@@ -39,7 +39,7 @@ Google Generative AI (Gemini 1.5 Flash) – LLM engine
 
 ---
 
-##🚀 How It Works
+## 🚀 How It Works
 
 ──────────────
 
@@ -66,7 +66,7 @@ Mental Health
 
 ---
 
-##🧪 Sample Interaction
+## 🧪 Sample Interaction
 
 ──────────────
 
@@ -77,7 +77,7 @@ Final Output: 'I have chest pain' is a medical emergency! Seek immediate help.
 
 ---
 
-##🔧 Setup Instructions
+##  Setup Instructions
 
 ──────────────
 
