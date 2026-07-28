@@ -13,7 +13,7 @@ An intelligent assistant that helps hospitals classify patient symptoms using Go
 
 🗣️ Conversational symptom input
 
-🤖 AI-based symptom classification
+🤖 AI-based symptom classification 
 
 🏥 Automated routing to the correct care path
 
